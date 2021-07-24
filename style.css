@@ -1,0 +1,119 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 45px;
+  font-size: 24px;
+  font-family: "Karma", sans-serif;
+}
+.middle {
+  width: 100%;
+  text-align: center;
+  font-family: "Karma", sans-serif;
+  line-height: 1.5;
+}
+.middle img {
+  width: 100%;
+  margin: 10px;
+}
+.middle h3 {
+  font-size: 24px;
+  margin: 10px 0px;
+  font-weight: 400;
+}
+.middle p {
+  font-size: 15px;
+  margin: 10px 0px;
+}
+.paginations {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.paginations ul {
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+  padding-left: 28em;
+  padding-right: 28em;
+}
+.paginations li {
+  display: inline-block;
+  padding: 4px 12px;
+}
+.paginations a {
+  color: #000;
+}
+hr {
+  margin: 0px 25px;
+}
+.about {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Karma", sans-serif;
+}
+.about h3 {
+  font-size: 24px;
+  margin: 30px 0px;
+  text-align: center;
+  font-weight: 400;
+}
+.about img {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.about h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.about h6 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.about p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.footer {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: start;
+  font-family: "Karma", sans-serif;
+}
+.footer h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 30px 0;
+}
+.footer p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.footer ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+.footer li {
+  display: list-item;
+}
+.footer span {
+  text-align: right;
+}
+.footer img {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 16px;
+}
+.popular span {
+  background-color: #616161;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 12px;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
