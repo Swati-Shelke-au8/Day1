@@ -1,44 +1,76 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Karma", sans-serif !important;
+}
+.container{
+  max-width: 1200px !important;
+}
+.row{
+  max-width: 1200px !important;
+}
 .header {
-  width: 100%;
-  background-color: #fff;
-  padding: 10px;
-  margin-bottom: 45px;
   font-size: 24px;
-  font-family: "Karma", sans-serif;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  background-color: #FFF;
+  width: 100%;
+  top: 0;
+  padding: 15px 0px;
 }
 .middle {
   width: 100%;
   text-align: center;
-  font-family: "Karma", sans-serif;
   line-height: 1.5;
+}
+.middle1{
+  margin-bottom: 7em;
 }
 .middle img {
   width: 100%;
-  margin: 10px;
+  margin: 12px;
+}
+.col-sm-4.col-xl-4.col{
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.col-sm-3.col-xl-3.col-12{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.col-sm-12.col-xl-12.col-12{
+  padding-left: 7px;
+  padding-right: 7px;
 }
 .middle h3 {
   font-size: 24px;
-  margin: 10px 0px;
+  margin: 0px 10px;
   font-weight: 400;
+  text-align: center !important;
 }
 .middle p {
-  font-size: 15px;
-  margin: 10px 0px;
+  font-size: 14px;
+  margin: 10px;
+  text-align: center !important;
 }
 .paginations {
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 42px;
 }
 .paginations ul {
   list-style-type: none;
   text-align: center;
   overflow: hidden;
-  padding-left: 40em;
 }
 .paginations li {
   display: inline-block;
   padding: 4px 12px;
+  font-size: small;
+  font-weight: lighter;
+
 }
 .paginations a {
   color: #000;
@@ -50,17 +82,18 @@ hr {
   width: 100%;
   margin-top: 10px;
   text-align: center;
-  font-family: "Karma", sans-serif;
+  padding-left: 2em;
 }
 .about h3 {
   font-size: 24px;
-  margin: 30px 0px;
+  margin: 42px 0px;
   text-align: center;
   font-weight: 400;
 }
 .about img {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  width: 100%;
+  margin-top: -5px;
+  margin-bottom: 45px;
 }
 .about h4 {
   font-size: 20px;
@@ -68,18 +101,19 @@ hr {
 }
 .about h6 {
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 .about p {
-  font-size: 16px;
-  margin-bottom: 50px;
+  font-size: 15px;
+  margin-bottom: 7em;
+  line-height: 1.5;
 }
 .footer {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 30px;
-  text-align: start;
-  font-family: "Karma", sans-serif;
+  /* text-align: start; */
+  padding: 15px;
 }
 .footer h3 {
   font-size: 24px;
@@ -96,6 +130,10 @@ hr {
 }
 .footer li {
   display: list-item;
+  padding: 25px;
+}
+.footer li:hover {
+  background-color: #ccc;
 }
 .footer span {
   text-align: right;
@@ -115,4 +153,60 @@ hr {
   padding-left: 8px;
   padding-right: 8px;
   text-align: center;
+  font-family: "serif";
+}
+
+#demo{
+  display: none;
+  height: 100%;
+  width: 60%;
+  background-color: #FFF;
+  z-index: 2;
+  max-width: 500px;
+  position: absolute;
+  border: none;
+  text-align: left;
+  float:none;
+  white-space: normal;
+  outline: 0;
+  overflow: auto;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  /* left: 0;
+  transition: left 5s cubic-bezier(0, 0, 1, 1); */
+};
+#demo ul {
+  list-style-type: none;
+}
+#demo li {
+  font-size: 24px;
+  padding: 1em;
+  margin-left: -40px;
+}
+#demo li:hover {
+  background-color: #ccc;
+}
+
+.menu-bar:hover{
+  background-color: #ccc;
+  padding: 5px;
+}
+
+#demo a {
+  color: #000;
+  text-decoration: none;
+}
+.animate {
+  animation: fadeIn 0.4s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    
+    left: -250px;
+    opacity: 0;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
 }
